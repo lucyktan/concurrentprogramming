@@ -1,0 +1,86 @@
+Script started on Thu 17 Sep 2015 04:22:11 PM EDT
+]0;lucyktan@lucyktan-VirtualBox: ~/Documents/EECS 338 hws/lkt13_eecshw1
+lucyktan@lucyktan-VirtualBox:~/Documents/EECS 338 hws/lkt13_eecshw1$ make
+gcc -c -Wall -Wextra lkt13_eecs338hw1.c
+gcc lkt13_eecs338hw1.o -o lkt13_eecs338hw1
+]0;lucyktan@lucyktan-VirtualBox: ~/Documents/EECS 338 hws/lkt13_eecshw1
+lucyktan@lucyktan-VirtualBox:~/Documents/EECS 338 hws/lkt13_eecshw1$ ./lkt13_eecs338hw1
+[parent, PID=2705] current working directory: /home/lucyktan/Documents/EECS 338 hws/lkt13_eecshw1
+[parent, PID=2705] username: lucyktan
+[parent, PID=2705] user id: 1000
+[parent, PID=2705] effective user id: 1000
+[parent, PID=2705] group id: 1000
+[parent, PID=2705] pid: 2705
+[parent, PID=2705] child1_pid: 2706
+[parent, PID=2705] child2_pid: 2707
+[parent, PID=2705] child3_pid: 2708
+[parent, PID=2705] child4_pid: 2709
+[child1, PID=2706] username: lucyktan
+[child1, PID=2706] user id: 1000
+[child1, PID=2706] effective user id: 1000
+[child1, PID=2706] group id: 1000
+[child1, PID=2706] pid: 2706
+[child1, PID=2706] parent PID: 2705
+[child2, PID=2707] username: lucyktan
+[child2, PID=2707] user id: 1000
+[child2, PID=2707] effective user id: 1000
+[child2, PID=2707] group id: 1000
+[child2, PID=2707] pid: 2707
+[child2, PID=2707] parent PID: 2705
+[child3, PID=2708] username: lucyktan
+[child3, PID=2708] user id: 1000
+[child3, PID=2708] effective user id: 1000
+[child3, PID=2708] group id: 1000
+[child3, PID=2708] pid: 2708
+[child3, PID=2708] parent PID: 2705
+(n (n-2)) binomial coefficient computations of integers n=2, 3, ..., 10, start now!
+[child1, PID=2706] seconds since epoch: 1442521346
+[child1, PID=2706] current time: Thu Sep 17 16:22:26 2015
+
+[child1, PID=2706] user CPU time: 264000 us
+[child1, PID=2706] system CPU time: 0 us
+[parent, PID=2705] child1 terminated
+[child2, PID=2707] binom_n=2: 1
+[child3, PID=2708] binom_n=3: 3
+[child2, PID=2707] binom_n=4: 6
+[child3, PID=2708] binom_n=5: 10
+[child2, PID=2707] binom_n=6: 15
+[child3, PID=2708] binom_n=7: 21
+[child2, PID=2707] binom_n=8: 28
+[child3, PID=2708] binom_n=9: 36
+[child2, PID=2707] binom_n=10: 45
+[child3, PID=2708] seconds since epoch: 1442521356
+[child3, PID=2708] current time: Thu Sep 17 16:22:36 2015
+
+[child3, PID=2708] user CPU time: 276000 us
+[child3, PID=2708] system CPU time: 0 us
+[child2, PID=2707] seconds since epoch: 1442521357
+[child2, PID=2707] current time: Thu Sep 17 16:22:37 2015
+
+[child2, PID=2707] user CPU time: 284000 us
+[child2, PID=2707] system CPU time: 0 us
+[parent, PID=2705] child2 terminated
+[parent, PID=2705] child3 terminated
+[child4, PID=2709] username: lucyktan
+[child4, PID=2709] user id: 1000
+[child4, PID=2709] effective user id: 1000
+[child4, PID=2709] group id: 1000
+[child4, PID=2709] pid: 2709
+[child4, PID=2709] parent PID: 2705
+total 56
+-rwxrwxr-x 1 lucyktan lucyktan 14313 Sep 17 16:22 lkt13_eecs338hw1
+-rw-rw-r-- 1 lucyktan lucyktan  7244 Sep 17 16:15 lkt13_eecs338hw1.c
+-rw-rw-r-- 1 lucyktan lucyktan  5782 Sep 16 23:36 lkt13_eecs338hw1.c~
+-rw-rw-r-- 1 lucyktan lucyktan 10104 Sep 17 16:22 lkt13_eecs338hw1.o
+-rw-rw-r-- 1 lucyktan lucyktan   271 Sep 15 00:28 lkt13@eecslinab3.case.edu
+-rw-rw-r-- 1 lucyktan lucyktan   271 Sep 14 23:34 Makefile
+-rw-rw-r-- 1 lucyktan lucyktan   281 Sep 14 23:33 Makefile~
+-rw-rw-r-- 1 lucyktan lucyktan     0 Sep 17 16:22 output.txt
+[parent, PID=2705] child4 terminated
+[parent, PID=2705] seconds since epoch: 1442521360
+[parent, PID=2705] current time: Thu Sep 17 16:22:40 2015
+
+[parent, PID=2705] user CPU time: 268000 us
+[parent, PID=2705] system CPU time: 4000 us
+]0;lucyktan@lucyktan-VirtualBox: ~/Documents/EECS 338 hws/lkt13_eecshw1lucyktan@lucyktan-VirtualBox:~/Documents/EECS 338 hws/lkt13_eecshw1$ exit
+Script done on Thu 17 Sep 2015 04:22:43 PM EDT
